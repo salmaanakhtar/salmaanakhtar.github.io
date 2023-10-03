@@ -9,6 +9,7 @@ import {MatIconModule} from "@angular/material/icon";
 import {MatButtonModule} from "@angular/material/button";
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { BloghomepageComponent } from './bloghomepage/bloghomepage.component';
+import {MatExpansionModule} from "@angular/material/expansion";
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { BloghomepageComponent } from './bloghomepage/bloghomepage.component';
     BrowserAnimationsModule,
     MatToolbarModule,
     MatIconModule,
-    MatButtonModule
+    MatButtonModule,
+    MatExpansionModule
   ],
   providers: [],
   bootstrap: [AppComponent]

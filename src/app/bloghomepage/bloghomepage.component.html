@@ -1,7 +1,29 @@
-<p>bloghomepage works!</p>
-<p>bloghomepage works!</p>
-<p>bloghomepage works!</p>
-<p>bloghomepage works!</p>
-<p>bloghomepage works!</p>
-<p>bloghomepage works!</p>
+<mat-accordion class="specific-class">
+  <mat-expansion-panel (opened)="panelOpenState = true"
+                       (closed)="panelOpenState = false">
+    <mat-expansion-panel-header >
+      <mat-panel-title>
+        Week 1
+      </mat-panel-title>
+      <mat-panel-description>
+        Introduction To The Module
+      </mat-panel-description>
+    </mat-expansion-panel-header>
+    <p>We were Introduced To The Module</p>
+  </mat-expansion-panel>
+
+  <mat-expansion-panel (opened)="panelOpenState = true"
+                       (closed)="panelOpenState = false">
+    <mat-expansion-panel-header>
+      <mat-panel-title>
+        Week 2
+      </mat-panel-title>
+      <mat-panel-description>
+        Not Sure Yet
+      </mat-panel-description>
+    </mat-expansion-panel-header>
+    <p>Not Sure Yet</p>
+  </mat-expansion-panel>
+</mat-accordion>
+
 
