@@ -12,6 +12,7 @@ import { BloghomepageComponent } from './bloghomepage/bloghomepage.component';
 import {MatExpansionModule} from "@angular/material/expansion";
 import {FormsModule} from "@angular/forms";
 import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
+import {MatInputModule} from "@angular/material/input";
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
         MatIconModule,
         MatButtonModule,
         MatExpansionModule,
-        FormsModule
+        FormsModule,
+        MatInputModule
     ],
   providers: [],
   bootstrap: [AppComponent]

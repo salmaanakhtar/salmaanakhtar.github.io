@@ -6,3 +6,8 @@
   margin-bottom: 8px; /* Adjust the value according to your spacing preference */
   margin-top: 8px;
 }
+
+.dogbefore{
+    max-width: 25%;
+    max-height: 25%
+}
