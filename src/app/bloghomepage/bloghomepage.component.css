@@ -11,3 +11,7 @@
     max-width: 25%;
     max-height: 25%
 }
+
+::ng-deep .mat-expansion-panel-body {
+  text-align: center;
+}
