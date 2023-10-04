@@ -10,22 +10,26 @@ import {MatButtonModule} from "@angular/material/button";
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { BloghomepageComponent } from './bloghomepage/bloghomepage.component';
 import {MatExpansionModule} from "@angular/material/expansion";
+import {FormsModule} from "@angular/forms";
+import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
-    BloghomepageComponent
+    BloghomepageComponent,
+    PagenotfoundComponent
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-    BrowserAnimationsModule,
-    MatToolbarModule,
-    MatIconModule,
-    MatButtonModule,
-    MatExpansionModule
-  ],
+    imports: [
+        BrowserModule,
+        AppRoutingModule,
+        BrowserAnimationsModule,
+        MatToolbarModule,
+        MatIconModule,
+        MatButtonModule,
+        MatExpansionModule,
+        FormsModule
+    ],
   providers: [],
   bootstrap: [AppComponent]
 })

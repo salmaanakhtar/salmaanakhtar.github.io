@@ -1,13 +1,8 @@
-/* Target collapsed state */
-.mat-expansion-panel:not(.mat-expanded) {
-  background-color: darkgrey;
-}
-
-/* Target expanded state */
 .mat-expansion-panel.mat-expanded {
-  background-color: grey;
+  background-color: darkslategrey;
 }
 
 .mat-expansion-panel {
-  margin-bottom: 16px; /* Adjust the value according to your spacing preference */
+  margin-bottom: 8px; /* Adjust the value according to your spacing preference */
+  margin-top: 8px;
 }

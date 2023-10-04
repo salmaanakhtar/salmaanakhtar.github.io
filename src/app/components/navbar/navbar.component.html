@@ -1,15 +1,14 @@
-<p>
-  <mat-toolbar color="secondary">
+<mat-toolbar>
 
-    <span class="spacer"></span>
-    <button mat-icon-button routerLink="/">
-      <mat-icon>home</mat-icon>
-    </button>
+  <span class="spacer"></span>
+  <button mat-icon-button routerLink="" routerLinkActive="active" [ngClass]="{'active-icon': isActive('/')}">
+    <mat-icon>home</mat-icon>
+  </button>
 
-    <span class="spacer"></span>
-    <button mat-icon-button routerLink="/blog">
-      <mat-icon>menu_book</mat-icon>
-    </button>
+  <span class="spacer"></span>
+  <button mat-icon-button routerLink="/blog" [ngClass]="{'active-icon': isActive('/blog')}">
+    <mat-icon class="blog-icon">menu_book</mat-icon>
+  </button>
 
-  </mat-toolbar>
-</p>
+</mat-toolbar>
+
